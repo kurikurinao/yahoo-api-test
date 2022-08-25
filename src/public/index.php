@@ -15,9 +15,7 @@
  */
 require_once("./common.php");//共通ファイル読み込み(使用する前に、appidを指定してください。)
 
-// $hits = array();
 $category_id = "2495";//検索したいカテゴリーIDを入れてください。
-
 $url = "https://shopping.yahooapis.jp/ShoppingWebService/V2/categoryRanking?appid=$appid&category_id=$category_id";
 
 

@@ -25,8 +25,7 @@
  * 
  * @var string
  */
-$appid = "dj00aiZpPVdGSlZWNElSbzlqUyZzPWNvbnN1bWVyc2VjcmV0Jng9OWY-";//取得したアプリケーションIDを設定
-
+$appid = $_ENV['APP_ID'];//取得したアプリケーションIDを設定
 /**
  * @brief カテゴリーID一覧
  *
